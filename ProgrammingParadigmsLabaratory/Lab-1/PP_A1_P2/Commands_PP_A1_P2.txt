@@ -1,0 +1,8 @@
+Final executable file for problem 2 is created using command given below:-
+
+gcc PP_A1_P2_Functions.c PP_A1_P2_Functionality_client_code.c
+
+Where,
+
+PP_A1_P2_Functions.c is module,
+PP_A1_P2_Functionality_client_code.c is client code which includes the header file of the above module namely "PP_A1_P2_Functions.h".

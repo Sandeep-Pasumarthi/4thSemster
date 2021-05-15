@@ -1,0 +1,11 @@
+Final executable file for problem 3 is created using command given below:-
+
+First I compiled my module/library using command "gcc -c PP_A1_P2_Functions.c -o PP_A1_P2_Functions.o",
+Then created static library "ar rcs libPP_A1_P3.a PP_A1_P2_Functions.o" using previous created .o file,
+Then compiled my client code using command "gcc -c PP_A1_P2_Functionality_client_code.c -o PP_A1_P2_Functionality_client_code.o",
+Then created final executable file using command "gcc -o PP_A1_P3 PP_A1_P2_Functionality_client_code.o -L. -lPP_A1_P3".
+
+Where,
+
+libPP_A1_P3.a is static library,
+PP_A1_P3 is the final executable client code compiled using the above static library.
