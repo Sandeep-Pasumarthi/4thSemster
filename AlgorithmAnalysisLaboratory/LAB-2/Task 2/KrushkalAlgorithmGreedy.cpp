@@ -146,7 +146,7 @@ void KruskalMST(Graph *graph)
     int minimumCost = 0;
     for (i = 0; i < e; ++i)
     {
-        cout << result[i].src << " ----- " << result[i].dest << " == " << result[i].weight << endl;
+        cout << result[i].src << " ----- " << result[i].dest << " === " << result[i].weight << endl;
         minimumCost = minimumCost + result[i].weight;
     }
 
